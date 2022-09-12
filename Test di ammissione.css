@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+#sfondo{
+ background: url(background.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+#Quadrato{
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-attachment: fixed;
+  margin: 5px 250px;
+}
+
+#Testo{
+  font-family: Arial, sans-serif;
+  padding: 75px;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: #00FF00;
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+nav{
+  display:block;
+  background-color: #00FF00;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 2px
+}
+
+ main{
+     margin-top: 15px;
+ }
+
+.Monopattini{
+  display: inline;
+  margin-top: 15px;
+}
+
+h2{
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+p{
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+hr{
+  display: inline-block;
+  border-radius: 5px;
+}
+
+footer{
+  display: inline-block;
+}
